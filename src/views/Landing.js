@@ -186,7 +186,7 @@ class Landing extends React.Component {
                             Donaciones transparentes
                           </h6>
                           <p className="description mt-3">
-                            El proceso de donación se va a persistir en la block chain en todo el recorrido , asi logramos mas transparencia y sepas donde están los productos que donaste.
+                            Todo el proceso de donacion y toda la información de las campañas es persistida en la blockchain para mejorar la transparencia.
                           </p>
                           <div>
 
@@ -224,7 +224,7 @@ class Landing extends React.Component {
                   <Card className=" border-0">
                     <CardImg
                       alt="..."
-                      src={require("assets/img/theme/leche.jpg")}
+                      src={require("../assets/img/theme/leche.jpg")}
                       width="100%"
                       top
                     />
@@ -232,7 +232,7 @@ class Landing extends React.Component {
                       <CardTitle>Leche Entera Ilolay</CardTitle>
                       <CardSubtitle>$100</CardSubtitle>
                       <p>Compra minima : 10 u</p>
-                      <Button className="w-100" color="warning" onClick={event =>  window.location.href='https://localhost:44355/'}><i class="ni ni-cart"></i></Button>
+                      <Button className="w-100" color="warning" href="www.bechange.com.ar/necesidades">AYUDAR</Button>
                     </CardBody>
                   </Card>
                 </Col>
@@ -240,14 +240,14 @@ class Landing extends React.Component {
                   <Card className=" border-0">
                     <CardImg
                       alt="..."
-                      src={require("assets/img/theme/fideos.jpg")}
+                      src={require("../assets/img/theme/fideos.jpg")}
                       top
                     />
                     <CardBody>
                       <CardTitle>Fideo Spaghetti Knorr</CardTitle>
                       <CardSubtitle>$200</CardSubtitle>
                       <p>Compra minima : 15 u</p>
-                      <Button className="w-100" color="warning"  onClick={event =>  window.location.href='https://localhost:44355/'}><i class="ni ni-cart"></i></Button>
+                      <Button className="w-100" color="warning" href="www.bechange.com.ar/necesidades">AYUDAR</Button>
                     </CardBody>
                   </Card>
                 </Col>
@@ -255,14 +255,14 @@ class Landing extends React.Component {
                   <Card className=" border-0">
                     <CardImg
                       alt="..."
-                      src={require("assets/img/theme/arroz.jpg")}
+                      src={require("../assets/img/theme/arroz.jpg")}
                       top
                     />
                     <CardBody>
                       <CardTitle>Arroz Lucchetti</CardTitle>
                       <CardSubtitle>$80</CardSubtitle>
                       <p>Compra minima : 20 u</p>
-                      <Button className="w-100" color="warning"  onClick={event =>  window.location.href='https://localhost:44355/'}><i class="ni ni-cart"></i></Button>
+                      <Button className="w-100" color="warning" href="www.bechange.com.ar/necesidades">AYUDAR</Button>
                     </CardBody>
                   </Card>
                 </Col>
@@ -271,14 +271,14 @@ class Landing extends React.Component {
                     <CardImg
                       alt="..."
                       width="100%"
-                      src={require("assets/img/theme/harina.jpg")}
+                      src={require("../assets/img/theme/harina.jpg")}
                       top
                     />
                     <CardBody>
                       <CardTitle>Harina Morixe</CardTitle>
                       <CardSubtitle>$150</CardSubtitle>
                       <p>Compra minima : 5 u</p>
-                      <Button className="w-100" color="warning"  onClick={event =>  window.location.href='https://localhost:44355/'}><i class="ni ni-cart"></i></Button>
+                      <Button className="w-100" color="warning" href="www.bechange.com.ar/necesidades">AYUDAR</Button>
                     </CardBody>
                   </Card>
                 </Col>

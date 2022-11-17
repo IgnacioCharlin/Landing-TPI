@@ -74,7 +74,7 @@ class DemoNavbar extends React.Component {
 
               <img
                           alt="..."
-                          src={require("assets/img/brand/BeChange-1.png")}
+                          src={require("../../assets/img/brand/BeChange-1.png")}
                           style={{height:50}}
                         />
               </NavbarBrand>
@@ -165,7 +165,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="#"
+                      href="https://www.facebook.com/profile.php?id=100087616462854&is_tour_dismissed=true"
                       id="tooltip333589074"
                       target="_blank"
                     >
@@ -181,7 +181,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="#"
+                      href="https://www.instagram.com/plataformabechange/"
                       id="tooltip356693867"
                       target="_blank"
                     >
@@ -197,7 +197,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="#"
+                      href="https://twitter.com/BeChange2022"
                       id="tooltip184698705"
                       target="_blank"
                     >

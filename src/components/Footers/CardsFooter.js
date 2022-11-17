@@ -38,20 +38,17 @@ class CardsFooter extends React.Component {
       <>
         <footer className="footer bg-dark ">
           <Container>
-            <Row className="row-grid align-items-center my-md">
+          <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-white font-weight-light mb-2">
                   Gracias por visitarnos
                 </h3>
-                <h4 className="mb-0 text-white font-weight-light">
-                  Podes encontrar mas información en 
-                </h4>
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
                 <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
-                  href="#"
+                  href="https://twitter.com/BeChange2022"
                   id="tooltip475038074"
                   target="_blank"
                 >
@@ -65,7 +62,7 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="#"
+                  href="https://www.facebook.com/profile.php?id=100087616462854&is_tour_dismissed=true"
                   id="tooltip837440414"
                   target="_blank"
                 >
@@ -79,7 +76,7 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="dribbble"
-                  href="#"
+                  href="https://www.instagram.com/plataformabechange/"
                   id="tooltip829810202"
                   target="_blank"
                 >
